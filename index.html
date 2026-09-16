@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Canvas</title>
+	<link rel="icon" type="image/webp" href="data:image/webp;base64,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">
+	<style>
+		:root {
+			color-scheme: dark;
+			--background: #101820;
+			--panel: #182733;
+			--panel-border: #2b4252;
+			--text: #f3f7f8;
+			--muted: #a8bac3;
+			--accent: #55d6be;
+			--accent-dark: #10231f;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			display: grid;
+			place-items: center;
+			padding: 32px 16px;
+			color: var(--text);
+			background:
+				radial-gradient(circle at 15% 10%, #1c3c48 0, transparent 32%),
+				linear-gradient(145deg, var(--background), #0b1117);
+			font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+
+		main { width: min(760px, 100%); }
+
+		header { margin-bottom: 28px; }
+
+		.eyebrow {
+			margin: 0 0 8px;
+			color: var(--accent);
+			font: 700 0.78rem/1.2 system-ui, sans-serif;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: clamp(2.2rem, 7vw, 4.5rem);
+			line-height: 0.95;
+		}
+
+		.intro {
+			max-width: 540px;
+			margin: 16px 0 0;
+			color: var(--muted);
+			font-size: 1.1rem;
+			line-height: 1.5;
+		}
+
+		.games {
+			display: grid;
+			gap: 12px;
+		}
+
+		.game {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 20px;
+			padding: 20px 22px;
+			border: 1px solid var(--panel-border);
+			border-radius: 8px;
+			background: color-mix(in srgb, var(--panel) 92%, transparent);
+			box-shadow: 0 12px 30px #0003;
+		}
+
+		h2 { margin: 0 0 6px; font-size: 1.35rem; }
+
+		.version { margin: 0; color: var(--muted); font: 0.9rem system-ui, sans-serif; }
+
+		.actions {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+			gap: 8px;
+		}
+
+		a {
+			display: inline-block;
+			padding: 10px 14px;
+			border: 1px solid var(--accent);
+			border-radius: 5px;
+			color: var(--accent);
+			font: 700 0.85rem system-ui, sans-serif;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+
+		a.primary { color: var(--accent-dark); background: var(--accent); }
+		a:hover, a:focus-visible { filter: brightness(1.15); }
+		a:focus-visible { outline: 3px solid #fff8; outline-offset: 3px; }
+
+		footer { margin-top: 22px; color: var(--muted); font: 0.8rem system-ui, sans-serif; }
+
+		@media (max-width: 560px) {
+			.game { align-items: stretch; flex-direction: column; }
+			.actions { justify-content: flex-start; }
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<p class="eyebrow">School games</p>
+			<h1>Eaglercraft Launcher</h1>
+			<p class="intro">Choose a version to play in your browser, or download its standalone HTML file.</p>
+		</header>
+
+		<section class="games" aria-label="Available Eaglercraft versions">
+			<article class="game">
+				<div>
+					<h2>Eaglercraft 1.8</h2>
+					<p class="version">Classic browser edition</p>
+				</div>
+				<div class="actions">
+					<a class="primary" href="Eaglercraft-1.8.html" target="_blank" rel="noopener">Launch</a>
+					<a href="Eaglercraft-1.8.html" download>Download</a>
+				</div>
+			</article>
+
+			<article class="game">
+				<div>
+					<h2>Eaglercraft 1.8 WASM</h2>
+					<p class="version">WebAssembly edition</p>
+				</div>
+				<div class="actions">
+					<a class="primary" href="Eaglercraft-1.8-WASM.html" target="_blank" rel="noopener">Launch</a>
+					<a href="Eaglercraft-1.8-WASM.html" download>Download</a>
+				</div>
+			</article>
+
+			<article class="game">
+				<div>
+					<h2>Eaglercraft 1.12.2 WASM</h2>
+					<p class="version">Newer WebAssembly edition</p>
+				</div>
+				<div class="actions">
+					<a class="primary" href="Eaglercraft-1.12.2-WASM.html" target="_blank" rel="noopener">Launch</a>
+					<a href="Eaglercraft-1.12.2-WASM.html" download>Download</a>
+				</div>
+			</article>
+		</section>
+
+		<footer>All versions run locally in your browser.</footer>
+	</main>
+</body>
+</html>
