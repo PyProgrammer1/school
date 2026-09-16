@@ -10,3 +10,4 @@ A great place for unblocked games! Because this repo was just made, it shouldn't
 
 ## Website
 The website should be running [here.](https://pyprogrammer1.github.io/school)
+*Temporary note: Not yet.*
